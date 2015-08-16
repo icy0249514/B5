@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69843F31B80703600A27F42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69843F21B80703600A27F42 /* AppDelegate.swift */; };
+		A69843F51B80703600A27F42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69843F41B80703600A27F42 /* ViewController.swift */; };
+		A69843F81B80703600A27F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69843F61B80703600A27F42 /* Main.storyboard */; };
+		A69843FA1B80703600A27F42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69843F91B80703600A27F42 /* Images.xcassets */; };
+		A69843FD1B80703600A27F42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69843FB1B80703600A27F42 /* LaunchScreen.xib */; };
+		A69844091B80703600A27F42 /* FourButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69844081B80703600A27F42 /* FourButtonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A69844031B80703600A27F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69843E51B80703600A27F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69843EC1B80703600A27F42;
+			remoteInfo = FourButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A69843ED1B80703600A27F42 /* FourButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69843F11B80703600A27F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69843F21B80703600A27F42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A69843F41B80703600A27F42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A69843F71B80703600A27F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A69843F91B80703600A27F42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A69843FC1B80703600A27F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A69844021B80703600A27F42 /* FourButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69844071B80703600A27F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69844081B80703600A27F42 /* FourButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourButtonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69843EA1B80703600A27F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69843FF1B80703600A27F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69843E41B80703600A27F42 = {
+			isa = PBXGroup;
+			children = (
+				A69843EF1B80703600A27F42 /* FourButton */,
+				A69844051B80703600A27F42 /* FourButtonTests */,
+				A69843EE1B80703600A27F42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69843EE1B80703600A27F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69843ED1B80703600A27F42 /* FourButton.app */,
+				A69844021B80703600A27F42 /* FourButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69843EF1B80703600A27F42 /* FourButton */ = {
+			isa = PBXGroup;
+			children = (
+				A69843F21B80703600A27F42 /* AppDelegate.swift */,
+				A69843F41B80703600A27F42 /* ViewController.swift */,
+				A69843F61B80703600A27F42 /* Main.storyboard */,
+				A69843F91B80703600A27F42 /* Images.xcassets */,
+				A69843FB1B80703600A27F42 /* LaunchScreen.xib */,
+				A69843F01B80703600A27F42 /* Supporting Files */,
+			);
+			path = FourButton;
+			sourceTree = "<group>";
+		};
+		A69843F01B80703600A27F42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69843F11B80703600A27F42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A69844051B80703600A27F42 /* FourButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A69844081B80703600A27F42 /* FourButtonTests.swift */,
+				A69844061B80703600A27F42 /* Supporting Files */,
+			);
+			path = FourButtonTests;
+			sourceTree = "<group>";
+		};
+		A69844061B80703600A27F42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69844071B80703600A27F42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69843EC1B80703600A27F42 /* FourButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A698440C1B80703600A27F42 /* Build configuration list for PBXNativeTarget "FourButton" */;
+			buildPhases = (
+				A69843E91B80703600A27F42 /* Sources */,
+				A69843EA1B80703600A27F42 /* Frameworks */,
+				A69843EB1B80703600A27F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourButton;
+			productName = FourButton;
+			productReference = A69843ED1B80703600A27F42 /* FourButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A69844011B80703600A27F42 /* FourButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A698440F1B80703600A27F42 /* Build configuration list for PBXNativeTarget "FourButtonTests" */;
+			buildPhases = (
+				A69843FE1B80703600A27F42 /* Sources */,
+				A69843FF1B80703600A27F42 /* Frameworks */,
+				A69844001B80703600A27F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69844041B80703600A27F42 /* PBXTargetDependency */,
+			);
+			name = FourButtonTests;
+			productName = FourButtonTests;
+			productReference = A69844021B80703600A27F42 /* FourButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69843E51B80703600A27F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Peter Pan";
+				TargetAttributes = {
+					A69843EC1B80703600A27F42 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A69844011B80703600A27F42 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A69843EC1B80703600A27F42;
+					};
+				};
+			};
+			buildConfigurationList = A69843E81B80703600A27F42 /* Build configuration list for PBXProject "FourButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A69843E41B80703600A27F42;
+			productRefGroup = A69843EE1B80703600A27F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69843EC1B80703600A27F42 /* FourButton */,
+				A69844011B80703600A27F42 /* FourButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69843EB1B80703600A27F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69843F81B80703600A27F42 /* Main.storyboard in Resources */,
+				A69843FD1B80703600A27F42 /* LaunchScreen.xib in Resources */,
+				A69843FA1B80703600A27F42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69844001B80703600A27F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69843E91B80703600A27F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69843F51B80703600A27F42 /* ViewController.swift in Sources */,
+				A69843F31B80703600A27F42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69843FE1B80703600A27F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69844091B80703600A27F42 /* FourButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A69844041B80703600A27F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69843EC1B80703600A27F42 /* FourButton */;
+			targetProxy = A69844031B80703600A27F42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A69843F61B80703600A27F42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69843F71B80703600A27F42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A69843FB1B80703600A27F42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69843FC1B80703600A27F42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A698440A1B80703600A27F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A698440B1B80703600A27F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A698440D1B80703600A27F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FourButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A698440E1B80703600A27F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FourButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A69844101B80703600A27F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FourButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FourButton.app/FourButton";
+			};
+			name = Debug;
+		};
+		A69844111B80703600A27F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FourButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FourButton.app/FourButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69843E81B80703600A27F42 /* Build configuration list for PBXProject "FourButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A698440A1B80703600A27F42 /* Debug */,
+				A698440B1B80703600A27F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A698440C1B80703600A27F42 /* Build configuration list for PBXNativeTarget "FourButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A698440D1B80703600A27F42 /* Debug */,
+				A698440E1B80703600A27F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A698440F1B80703600A27F42 /* Build configuration list for PBXNativeTarget "FourButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69844101B80703600A27F42 /* Debug */,
+				A69844111B80703600A27F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69843E51B80703600A27F42 /* Project object */;
+}
