@@ -842,8 +842,8 @@
                                                             </constraints>
                                                             <variation key="default">
                                                                 <mask key="constraints">
-                                                                    <exclude reference="TW7-3z-MP7"/>
                                                                     <exclude reference="9b5-yr-zv2"/>
+                                                                    <exclude reference="TW7-3z-MP7"/>
                                                                 </mask>
                                                             </variation>
                                                             <connections>
