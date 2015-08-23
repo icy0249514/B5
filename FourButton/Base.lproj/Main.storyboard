@@ -25,7 +25,7 @@
                                         <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kju-Hy-yMA">
                                             <rect key="frame" x="8" y="-95" width="600" height="492"/>
                                             <connections>
-                                                <segue destination="kkd-YA-MHT" kind="embed" id="Xmu-QV-23K"/>
+                                                <segue destination="qAA-3a-Dvj" kind="embed" id="l9w-LS-2M3"/>
                                             </connections>
                                         </containerView>
                                     </subviews>
@@ -156,7 +156,7 @@
             <objects>
                 <tableViewController id="kkd-YA-MHT" customClass="UniversityTableViewController" customModule="FourButton" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Ouu-Ae-sYn">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="492"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <sections>
@@ -703,14 +703,15 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IzJ-03-lRJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1358" y="-244"/>
+            <point key="canvasLocation" x="1934" y="-700"/>
         </scene>
         <!--University Table View Controller-->
         <scene sceneID="Qdz-6V-1Di">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WiE-19-3sh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="qAA-3a-Dvj" customClass="UniversityTableViewController" customModule="FourButton" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2CF-5Z-3tB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="492"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <sections>
@@ -1255,9 +1256,8 @@
                         <outlet property="metroImageView" destination="T8H-LP-CMX" id="Qco-4D-KxY"/>
                     </connections>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WiE-19-3sh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2014" y="-199"/>
+            <point key="canvasLocation" x="1914" y="533"/>
         </scene>
     </scenes>
 </document>
