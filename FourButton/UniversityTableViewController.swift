@@ -40,10 +40,7 @@ class UniversityTableViewController: UITableViewController, UICollectionViewData
        // tempView.backgroundColor = UIColor.yellowColor()
        // self.tableView.backgroundView = tempView
         
-         let tempView = UIImageView()
-         tempView.image = UIImage(named: "BlurBackground")
-         self.tableView.backgroundView = tempView
-        
+    
         
         
         let layout = self.imageViewCollectionView.collectionViewLayout as! UICollectionViewFlowLayout
