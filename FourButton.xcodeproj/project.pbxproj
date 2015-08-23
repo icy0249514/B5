@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A69843F31B80703600A27F42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69843F21B80703600A27F42 /* AppDelegate.swift */; };
-		A69843F51B80703600A27F42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69843F41B80703600A27F42 /* ViewController.swift */; };
 		A69843F81B80703600A27F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69843F61B80703600A27F42 /* Main.storyboard */; };
 		A69843FA1B80703600A27F42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69843F91B80703600A27F42 /* Images.xcassets */; };
 		A69843FD1B80703600A27F42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69843FB1B80703600A27F42 /* LaunchScreen.xib */; };
 		A69844091B80703600A27F42 /* FourButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69844081B80703600A27F42 /* FourButtonTests.swift */; };
+		A69844411B80A08D00A27F42 /* UniversityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69844401B80A08D00A27F42 /* UniversityTableViewController.swift */; };
+		A69844431B80A0E900A27F42 /* CircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69844421B80A0E900A27F42 /* CircleCollectionViewCell.swift */; };
+		A69844451B80A2B000A27F42 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69844441B80A2B000A27F42 /* ImageCollectionViewCell.swift */; };
+		A69844491B80B28500A27F42 /* UniversityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69844481B80B28500A27F42 /* UniversityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		A69843ED1B80703600A27F42 /* FourButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69843F11B80703600A27F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A69843F21B80703600A27F42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A69843F41B80703600A27F42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A69843F71B80703600A27F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A69843F91B80703600A27F42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A69843FC1B80703600A27F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A69844021B80703600A27F42 /* FourButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69844071B80703600A27F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A69844081B80703600A27F42 /* FourButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourButtonTests.swift; sourceTree = "<group>"; };
+		A69844401B80A08D00A27F42 /* UniversityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityTableViewController.swift; sourceTree = "<group>"; };
+		A69844421B80A0E900A27F42 /* CircleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleCollectionViewCell.swift; sourceTree = "<group>"; };
+		A69844441B80A2B000A27F42 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		A69844481B80B28500A27F42 /* UniversityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,11 @@
 		A69843EF1B80703600A27F42 /* FourButton */ = {
 			isa = PBXGroup;
 			children = (
+				A69844481B80B28500A27F42 /* UniversityViewController.swift */,
+				A69844441B80A2B000A27F42 /* ImageCollectionViewCell.swift */,
+				A69844421B80A0E900A27F42 /* CircleCollectionViewCell.swift */,
+				A69844401B80A08D00A27F42 /* UniversityTableViewController.swift */,
 				A69843F21B80703600A27F42 /* AppDelegate.swift */,
-				A69843F41B80703600A27F42 /* ViewController.swift */,
 				A69843F61B80703600A27F42 /* Main.storyboard */,
 				A69843F91B80703600A27F42 /* Images.xcassets */,
 				A69843FB1B80703600A27F42 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69843F51B80703600A27F42 /* ViewController.swift in Sources */,
+				A69844451B80A2B000A27F42 /* ImageCollectionViewCell.swift in Sources */,
 				A69843F31B80703600A27F42 /* AppDelegate.swift in Sources */,
+				A69844431B80A0E900A27F42 /* CircleCollectionViewCell.swift in Sources */,
+				A69844491B80B28500A27F42 /* UniversityViewController.swift in Sources */,
+				A69844411B80A08D00A27F42 /* UniversityTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				A698440E1B80703600A27F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A698440F1B80703600A27F42 /* Build configuration list for PBXNativeTarget "FourButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				A69844111B80703600A27F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
