@@ -6,6 +6,7 @@
 //  Copyright (c) 2015年 USER. All rights reserved.
 //
 
+//qq
 import UIKit
 
 class ImageCollectionViewCell : UICollectionViewCell {
